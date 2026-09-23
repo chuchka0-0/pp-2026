@@ -34,7 +34,7 @@ pp-2026/
 ├── requirements.txt
 ├── src/
 │   ├── CMakeLists.txt
-|   └──lab_0X.cpp
+│   └──lab_0X.cpp
 ├── scripts/
 │   ├── common.py
 │   ├── plot.py

@@ -1,4 +1,6 @@
-"""Общие пути и ввод-вывод матриц (тот же формат, что в src/common/matrix.hpp)."""
+"""
+Общие пути и ввод-вывод матриц (тот же формат, что в src/common/matrix.hpp).
+"""
 
 from pathlib import Path
 

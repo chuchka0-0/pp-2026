@@ -26,6 +26,7 @@ pip install -r requirements.txt
 
 # Структура репозитория
 
+```bash
 pp-2026/
 ├── CMakeLists.txt
 ├── CMakePresets.json
@@ -41,4 +42,5 @@ pp-2026/
 │   ├── verify.py
 │   └── generate.py
 ├── results/lab_0X/
-└── reports/lab_0X/{README.md, figures/}
+└── reports/lab_0X/
+```

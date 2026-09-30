@@ -2,11 +2,11 @@
 
 Серия лабораторных работ по перемножению двух квадратных матриц в четырёх реализациях.
 
-- [Лабораторная 1](reports/lab_01/README.md) — последовательная версия.
-- [Лабораторная 2](reports/lab_02/README.md) — OpenMP.
-- [Лабораторная 3](reports/lab_03/README.md) — MPI (запуск на суперкомпьютере «Сергей Королёв»).
-- [Лабораторная 4](reports/lab_04/README.md) — CUDA.
-- [Лабораторная 5](reports/lab_05/README.md) — фрактал Мандельброта на `std::thread` (Stanford CS149 asst1, Program 1): `make lab_05`.
+- [Лабораторная работа 1](reports/lab_01/README.md) — последовательная версия.
+- [Лабораторная работа 2](reports/lab_02/README.md) — OpenMP.
+- [Лабораторная работа 3](reports/lab_03/README.md) — MPI (запуск на суперкомпьютере «Сергей Королёв»).
+- [Лабораторная работа 4](reports/lab_04/README.md) — CUDA.
+- [Лабораторная работа 5](reports/lab_05/README.md) — фрактал Мандельброта на `std::thread` (Stanford CS149 asst1, Program 1): `make lab_05`.
 
 ## Архитектура
 

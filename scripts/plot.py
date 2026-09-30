@@ -67,7 +67,7 @@ def main():
     ax.legend()
     save(fig, figures / "time_by_size.png")
 
-    base = series.get(("lab_01", 1))
+    base = series.get((lab, 1) if lab == "lab_03" else ("lab_01", 1))
     own = sorted((w, by_n) for (name, w), by_n in series.items() if name == lab)
     if base and own:
         big = max(base)

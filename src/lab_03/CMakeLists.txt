@@ -1,0 +1,7 @@
+find_package(MPI)
+if(NOT MPI_FOUND)
+  message(STATUS "MPI not found: lab_03 skipped")
+  return()
+endif()
+add_executable(lab_03 main.cpp)
+target_link_libraries(lab_03 PRIVATE matrix MPI::MPI_CXX)

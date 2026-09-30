@@ -29,5 +29,6 @@ plot:
 clean:
 	rm -rf build
 
-clean-results:
-	rm -f results/$(LAB)/*.csv results/$(LAB)/*.bin
+lab_05:
+	$(MAKE) -C src/lab_05
+	$(PY) scripts/lab_05.py

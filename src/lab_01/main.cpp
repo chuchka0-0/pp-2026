@@ -1,12 +1,10 @@
 #include "matrix.hpp"
 
-#include <exception>
-
 int main(int argc, char **argv)
 {
     if (argc != 4)
     {
-        std::fprintf(stderr, "usage: %s A.bin B.bin C.bin\n", argv[0]);
+        std::fprintf(stderr, "usage: %s A.txt B.txt C.txt\n", argv[0]);
         return 1;
     }
     try

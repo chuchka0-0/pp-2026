@@ -4,5 +4,4 @@ __pycache__/
 *.pyc
 data/*.txt
 results/**/*.txt
-lab_03
 *.out

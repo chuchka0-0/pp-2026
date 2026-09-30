@@ -1,9 +1,8 @@
-build*/
+build/
 .env
-.venv/
 __pycache__/
 *.pyc
-data/*.bin
-results/**/*.bin
-.vscode/
-.idea/
+data/*.txt
+results/**/*.txt
+lab_03
+*.out

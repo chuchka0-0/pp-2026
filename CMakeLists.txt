@@ -1,18 +1,17 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.13)
 project(pp-2026 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CXX_EXTENSIONS OFF)
-
 if(NOT CMAKE_BUILD_TYPE)
   set(CMAKE_BUILD_TYPE Release)
 endif()
-if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
-  add_compile_options(-Wall -Wextra)
-endif()
 
-add_library(common INTERFACE)
-target_include_directories(common INTERFACE ${CMAKE_SOURCE_DIR}/src/common)
+# matrix.hpp доступен всем лабораторным
+add_library(matrix INTERFACE)
+target_include_directories(matrix INTERFACE ${CMAKE_SOURCE_DIR}/src)
 
 add_subdirectory(src/lab_01)
+add_subdirectory(src/lab_02)
+add_subdirectory(src/lab_03)
+add_subdirectory(src/lab_04)
